@@ -6,14 +6,21 @@
  **APPARATUS REQUIRED**
  
    1.start the program
+   
    2.Load Timer 1 mode 2 into the TMOD register(TMOD=20H)
+   
    3.Mode 2 = 8-bit auto-reload mode.
+   
    4.Clear TF1 (Timer 1 overflow flag)
+   
    5.Start Timer 1 by setting the TR1 bit
+   
    6.When overflow count=391:
        Toggle bit p2.5(using CPL p2.5)
        Reset counters and repeat
+       
    8.Continue infinitely to toggle P2.5 every 100ms.
+   
    **Program**
    ```
 ORG 0000H
