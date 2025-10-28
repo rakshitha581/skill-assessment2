@@ -1,7 +1,10 @@
 # skill-assessment2
+
 **AIM**
  To develop an 8051 microcontroller assembly program that uses Timer 1 in Mode 2 to generate a 100 ms delay and toggles an LED connected to Port 2.5. 8051.
+ 
  **APPARATUS REQUIRED**
+ 
    1.start the program
    2.Load Timer 1 mode 2 into the TMOD register(TMOD=20H)
    3.Mode 2 = 8-bit auto-reload mode.
